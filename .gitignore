@@ -1,0 +1,14 @@
+# 실행 환경과 임시 파일
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 비밀 설정
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# 개인별 분석 기록
+analysis_history/
