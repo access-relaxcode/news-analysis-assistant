@@ -66,9 +66,6 @@ if submitted:
                     "폴더의 쓰기 권한과 저장 공간을 확인해주세요."
                 )
 
-if submitted:
-    st.session_state["discord_sent"] = False
-
 # 버튼을 누른 순간뿐 아니라 저장된 결과가 있으면 표시
 if st.session_state["report"] is not None:
     report = st.session_state["report"]
